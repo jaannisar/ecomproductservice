@@ -1,5 +1,7 @@
 package com.scaler.ecomproductservice.service;
 
+import com.scaler.ecomproductservice.dto.ProductListResponseDTO;
+import com.scaler.ecomproductservice.dto.ProductResponseDTO;
 import com.scaler.ecomproductservice.model.Product;
 import org.springframework.stereotype.Service;
 
@@ -8,12 +10,12 @@ import java.util.List;
 @Service("ProductService")
 public class ProductServiceImpl implements ProductService{
     @Override
-    public List<Product> getAllProducts() {
+    public ProductListResponseDTO getAllProducts() {
         return null;
     }
 
     @Override
-    public Product getProductbyId(int id) {
+    public ProductResponseDTO getProductbyId(int id) {
         return null;
     }
 
